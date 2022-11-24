@@ -1,0 +1,33 @@
+{
+  "name": "vue-til",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^35.3.2",
+    "@ckeditor/ckeditor5-link": "^35.3.2",
+    "@ckeditor/ckeditor5-paragraph": "^35.3.2",
+    "@ckeditor/ckeditor5-vue": "^4.0.1",
+    "@vueuse/core": "^9.6.0",
+    "@vueuse/integrations": "^9.6.0",
+    "axios": "^1.2.0",
+    "pinia": "^2.0.23",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
+    "vue": "^3.2.41",
+    "vue-router": "^4.1.5"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.4",
+    "@vitejs/plugin-vue": "^3.1.2",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "eslint": "^8.22.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "prettier": "^2.7.1",
+    "vite": "^3.1.8"
+  }
+}
